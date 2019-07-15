@@ -69,4 +69,79 @@ class public Solution {
 		}
 
 	}
+
+	public String addBinary(String a, String b) {
+//		 First, consider whether there's an edge case
+
+//		 Check if length of a and b are the same
+
+//		 if not, make the shorter one to become the same length
+
+//		 and then compare from the last index to first
+
+//		 if overflow exists append 1 to the front of output
+
+//		 a = a.length() < b.length() ? zeroAppender(b, a) : a;
+//		 b = a.length() > b.length() ? zeroAppender(a, b) : b;
+
+//		 int carry = 0;
+//		 StringBuilder sb = new StringBuilder();
+
+//		 for (int i = a.length() - 1; i >= 0; i--) {
+//		 	int aToInt = a.charAt(i) - '0'; //
+//		 	int bToInt = b.charAt(i) - '0'; //
+//		 	int sum = carry + aToInt + bToInt;
+
+//		 	switch (sum) {
+//		 		case 1:
+//		 			output = "1" + output;
+//		 			carry = 0;
+//		 			break;
+//		 		case 2:
+//		 			output = "0" + output;
+//		 			carry = 1;
+//		 			break;
+//		 		case 3:
+//		 			output = "1" + output;
+//		 			carry = 1;
+//		 			break;
+//		 		default:
+//		 			output = "0" + output;
+//		 			carry = 0;
+//		 	}
+//		 }
+
+//		 return carry != 0 ? "1" + output : output;
+
+		 a = a.length() < b.length() ? zeroAppender(b, a) : a;
+		 b = a.length() > b.length() ? zeroAppender(a, b) : b;
+
+		 int carry = 0;
+		 StringBuilder sb = new StringBuilder();
+		 int i = a.length() - 1, j = b.length() - 1;
+		 while (i >= 0 || j >= 0 || carry != 0) {
+		 	int sum = carry;
+		 	if (i >= 0) sum += a.charAt(i--) - '0';
+			if (j >= 0) sum += b.charAt(j--) - '0';
+			carry = sum >> 1;
+
+			if (sum % 2 == 0) sb.append('0');
+			else sb.append('1');
+		}
+
+		 return sb.reverse().toString();
+	}
+
+	private String zeroAppender(String longStr, String shortStr) {
+		while (longStr.length() != shortStr.length()) {
+			shortStr = "0" + shortStr;
+		}
+
+		return shortStr;
+	}
+
+	public static void main(String[] args) {
+		System.out.println('hello');
+	}
 }
+
