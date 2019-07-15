@@ -12,7 +12,7 @@
 
 ### Medium
 ```aidl
-
+200. Number of Islands
 ```
 ## Categorize by Topic (LeetCode Link)
 ### Linked List
@@ -27,6 +27,7 @@
 > 101. [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
 ### BFS / DFS
 > 101. [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
+> 200. [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 ### Math
 > 9. [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 ## Solved
@@ -37,6 +38,7 @@
 ```
 ## Not Solved
 ```aidl
+200. Number of Islands (July 15)
 283. Move Zeroes (July 2)
 ```
 ## Need Further Study
