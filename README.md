@@ -13,6 +13,7 @@
 ### Medium
 ```aidl
 22. Generate Parentheses (July 17)
+55. Jump Game (July 17)
 200. Number of Islands (July 15)
 581. Shortest Unsorted Continuous Subarray (July 16)
 ```
@@ -20,6 +21,7 @@
 ### Linked List
 > 206. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 ### Dynamic Programming
+> 55. [Jump Game](https://leetcode.com/problems/jump-game/)
 > 192. [House Robber](https://leetcode.com/problems/house-robber/)
 ### Array
 > 283. [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
@@ -40,6 +42,7 @@
 206. Reverse Linked List (June 27)
 198. House Robber (June 28)
 101. Symmetric Tree (July 15)
+55. Jump Game (July 17)
 ```
 ## Not Solved
 ```aidl
