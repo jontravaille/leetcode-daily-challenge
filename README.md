@@ -12,7 +12,8 @@
 
 ### Medium
 ```aidl
-200. Number of Islands
+22. Generate Parentheses (July 17)
+200. Number of Islands (July 15)
 ```
 ## Categorize by Topic (LeetCode Link)
 ### Linked List
@@ -30,6 +31,8 @@
 > 200. [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 ### Math
 > 9. [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+### Backtracking
+> 22. [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 ## Solved
 ```aidl
 206. Reverse Linked List (June 27)
@@ -43,3 +46,4 @@
 ```
 ## Need Further Study
 9. Palindrome Number (July 15)
+22. Generate Parentheses (July 17)
