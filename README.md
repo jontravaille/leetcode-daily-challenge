@@ -14,6 +14,7 @@
 ```aidl
 22. Generate Parentheses (July 17)
 200. Number of Islands (July 15)
+581. Shortest Unsorted Continuous Subarray (July 16)
 ```
 ## Categorize by Topic (LeetCode Link)
 ### Linked List
@@ -22,6 +23,7 @@
 > 192. [House Robber](https://leetcode.com/problems/house-robber/)
 ### Array
 > 283. [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+> 581. [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
 ### Two Pointers
 > 283. [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
 ### Tree
@@ -43,6 +45,7 @@
 ```aidl
 200. Number of Islands (July 15)
 283. Move Zeroes (July 2)
+581. Shortest Unsorted Continuous Subarray (July 16)
 ```
 ## Need Further Study
 9. Palindrome Number (July 15)
