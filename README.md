@@ -3,6 +3,7 @@
 ## Categorize by Difficulty
 ### Easy
 ```aidl
+1. Two Sum (July 29)
 9. Palindrome Number (July 15)
 101. Symmetric Tree (July 15)
 198. House Robber (June 28)
@@ -27,6 +28,7 @@
 > 55. [Jump Game](https://leetcode.com/problems/jump-game/)
 > 192. [House Robber](https://leetcode.com/problems/house-robber/)
 ### Array
+> 1. [Two Sum](https://leetcode.com/problems/two-sum/)
 > 283. [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
 > 448. [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 > 581. [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
@@ -50,6 +52,7 @@
 101. Symmetric Tree (July 15)
 55. Jump Game (July 17)
 448. Find All Numbers Disappeared in an Array (July 25)
+1. Two Sum (July 29)
 ```
 ## Not Solved
 ```aidl
